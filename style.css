@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4a4e49
+}
+h1{
+    font-size: 38px;
+    font-family: 'sarala', sans-serif;
+}
+input{
+    color:aliceblue;
+    padding: 17px;
+    outline: none;
+    font-size: 30px;
+    font-family: 'sarala', sans-serif;
+    border-radius: 25%;
+}
+.num{
+    width: 64px;
+    height: 67px;
+}
+
+.text{
+    width: 160px;
+    height: 26px;
+    border-radius: 22px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+
+}
+.text1{
+    width: 24px;
+    height: 26px;
+    border-radius: 50%;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+main{
+    display: inline-block;
+}
+
+.maincolor{
+    background-color: black
+}
+
+.blue{
+    background-color: aqua;
+}
+
+.pin{
+    background-color: darkorchid;
+}
+
+.gre{
+    background-color: aquamarine;
+}
+
+.pur{
+    background-color: darkslateblue;
+}
+
+.ora{
+    background-color: darkorange;
+}

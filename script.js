@@ -19,19 +19,14 @@ function calculate(){
     }
 }
 
-function addToHistory(expression, result) {
+function addToHistory(expression) {
     const dateTime = new Date().toLocaleString(); // Obtém a data e hora atual
     const row = historyTable.insertRow(1);
     const cell1 = row.insertCell(0);
     const cell2 = row.insertCell(1);
-    const cell3 = row.insertCell(2);
-    const cell4 = row.insertCell(3);
     cell1.innerHTML = dateTime;
     cell2.innerHTML = expression;    
 }
 
-function replaceDisplay(newExpression, newResult) {
-    display.value = newExpression;
-    expression = newExpression;
-}
+
 

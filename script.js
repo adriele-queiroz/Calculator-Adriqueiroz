@@ -35,6 +35,3 @@ function replaceDisplay(newExpression, newResult) {
     expression = newExpression;
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-    display.value = '';
-});

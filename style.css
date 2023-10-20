@@ -120,12 +120,13 @@ th {
         flex-direction: column;
     }
 
-    .calculator-container {
+    .calculator {
         margin-right: 0;
     }
 
-    .history-container {
+    .history {
         margin-top: 20px;
+        
     }
 }
 
